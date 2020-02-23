@@ -1,3 +1,21 @@
+//////////////////////////////////////////////////////////////////////////////////
+// Engineer: VT
+// 
+// Create Date: 22.02.2020 
+// Design Name: risc-v 
+// Module Name: alu_i
+// Project Name: yarv
+// Target Devices: 
+// Tool Versions: 
+// Description: 
+// 
+// Dependencies: 
+// 
+// Revision:
+// Revision 0.01 - File Created
+// Additional Comments: tis file implements the "I" part of the RISC V ISA
+// 
+//////////////////////////////////////////////////////////////////////////////////
 module alu_i 
 #(
   parameter INSTR_WIDTH = 4,
