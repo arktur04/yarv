@@ -131,7 +131,7 @@ class NodeTypeA(NodeType):
     Arrow(x + 10, y + 50, x + 100, y + 50, 2, "w_data", self.green_color)
     Arrow(x + 30, y + 70, x + 100, y + 70, 1, "we", self.blue_color)
     Arrow(x + 50, y + 90, x + 100, y + 90, 1, "clk", self.blue_color)
-    Arrow(x + 50, y + 2100, x + 100, y + 100, 1, "clk_n", self.blue_color)
+    Arrow(x + 50, y + 100, x + 100, y + 100, 1, "clk_n", self.blue_color)
     strokeWeight(1)
     stroke(self.red_color)
     line(x + 20, y + 40, x + 20, y + 230)
